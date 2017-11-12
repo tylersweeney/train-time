@@ -1,0 +1,12 @@
+.jumbotron{
+	margin-top: 50px;
+	background-image:url(https://www.bahn.com/en/view/mdb/pv/agenturservice/2011/mdb_22990_ice_3_schnellfahrstrecke_nuernberg_-_ingolstadt_1000x500_cp_0x144_1000x644.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#60af87; 
+	color:white;
+	background-size: cover;
+	background:contain;
+	width:100%;
+	height:100%;
+}
