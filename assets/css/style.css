@@ -9,20 +9,17 @@ body{
 	font-family: 'Alfa Slab One', cursive;
 	margin-top: 50px;
 	background-image:url(https://media.giphy.com/media/hrKmmzitRaGcg/giphy.gif);
-	background-repeat: no-repeat;
 	background-position: center;
 	background-color:#60af87; 
 	color:gold;
-	background-size: cover;
+	background-size: stretch;
 	background:contain;
 	width:100%;
 	height:100%;
 }
 
 #add-train-btn{
-	margin:auto;
-	text-align: center;
-	position:center;
+
 	background-color:#0c6000;
 	color:gold;
 }
