@@ -68,10 +68,10 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey){
 
   var trainTimePretty = moment.unix(firstTrain).format("HH:mm");
 
-  var nextArrival =moment().diff(moment.unix(firstTrain, "X"), "HH:mm");
+  var nextArrival =moment().diff(moment.unix(firstTrain, "X"), "hh:mm");
   console.log(nextArrival)
 
-  var minutesAway = moment(nextArrival).fromNow();
+  var minutesAway = moment(nextArrival).toNow();
 
   //Add each train into table
   $("#train-table > tbody").append("<tr><td>" + trainName + "</td><td>" + destination + 
